@@ -1,7 +1,7 @@
 {
   "name": "hire-me",
   "version": "0.0.1",
-  "description": "Api for hire me",
+  "description": "api for hire me",
   "keywords": [
     "loopback-application",
     "loopback"
