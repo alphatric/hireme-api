@@ -1,9 +1,9 @@
-import {ApplicationConfig, HireMeApplication} from './application';
+import {ApplicationConfig, HireMeApiApplication} from './application';
 
 export * from './application';
 
 export async function main(options: ApplicationConfig = {}) {
-  const app = new HireMeApplication(options);
+  const app = new HireMeApiApplication(options);
   await app.boot();
   await app.start();
 
